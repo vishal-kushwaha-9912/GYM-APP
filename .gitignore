@@ -1,0 +1,27 @@
+echo "# Dependencies
+node_modules/
+.gradle/
+.gradle/
+
+# Expo
+.expo/
+expo-env.d.ts
+
+# Misc
+.DS_Store
+*.log
+.env
+.env.local
+
+# Build outputs
+dist/
+build/
+*.apk
+*.ipa
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+" > .gitignore
